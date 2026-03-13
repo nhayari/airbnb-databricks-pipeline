@@ -1,0 +1,103 @@
+############################
+# Python
+############################
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+
+############################
+# Virtual environments
+############################
+
+.env
+.venv
+venv/
+env/
+ENV/
+
+############################
+# Jupyter / Notebooks
+############################
+
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+############################
+# Databricks
+############################
+
+.databricks/
+.dbx/
+dbfs/
+
+############################
+# Spark
+############################
+
+spark-warehouse/
+metastore_db/
+derby.log
+
+############################
+# Data files (NEVER COMMIT DATA)
+############################
+
+data/
+datasets/
+*.csv
+*.csv.gz
+*.json
+*.geojson
+*.parquet
+*.delta
+
+############################
+# Logs
+############################
+
+*.log
+logs/
+
+############################
+# OS files
+############################
+
+.DS_Store
+Thumbs.db
+
+############################
+# IDE
+############################
+
+.vscode/
+.idea/
+
+############################
+# Secrets
+############################
+
+*.pem
+*.key
+*.env
+credentials.json
+secrets.json
+
+############################
+# Build
+############################
+
+dist/
+build/
+*.egg
+
+############################
+# Testing
+############################
+
+.pytest_cache/
+.coverage
+htmlcov/
